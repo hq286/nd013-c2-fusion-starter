@@ -59,6 +59,7 @@ def show_pcl(pcl):
     vis_pcl = o3d.visualization.VisualizerWithKeyCallback()
     vis_pcl.create_window(window_name='Open3D', width=1280, height=1080, left=50, top=50, visible=True)
 
+    # reference: abhilash1910/nd0130-c2-fusion-starter-midterm (https://github.com/abhilash1910/nd0130-c2-fusion-starter-midterm/blob/enhancement/student/objdet_pcl.py)
     global idx
     idx = True
     def right_click(vis_pcl):

@@ -210,7 +210,7 @@ def bev_from_pcl(lidar_pcl, configs):
     #######
     ####### ID_S2_EX1 END #######     
 ```
-The result is:<!-- TODO: -->
+The result is:
 <img src="img/bev_map.png"/>
 
 
@@ -251,7 +251,7 @@ Implmentation of Step 2 in the function `bev_from_pcl` in `student/object_pcl.py
     #######
     ####### ID_S2_EX2 END ####### 
 ```
-The result is:<!-- TODO: -->
+The result is:
 <img src="img/bev_intensity_channel.png"/>
 
 ### Step 3: Compute height layer of bev-map (ID_S2_EX3)
@@ -281,7 +281,7 @@ Implmentation of Step 3 in the function `bev_from_pcl` in `student/object_pcl.py
     #######
     ####### ID_S2_EX3 END #######
 ```
-The result is:<!-- TODO: -->
+The result is:
 <img src="img/bev_height_channel.png"/>
 
 ## Section 3: Model-based Object Detection in BEV Image
@@ -416,7 +416,7 @@ Since the objects detected by the model are in BEV coordinates, we need to conve
     #######
     ####### ID_S3_EX2 START #######
     ```
-The result is:<!-- TODO: -->
+The result is:
 <img src='img/vis3D_bbox.png'/>
 
 ## Section 4 : Performance Evaluation for Object Detection
@@ -522,7 +522,6 @@ recall = true_positives/float(true_positives + false_negatives)
 ```
 To check if the code will produce plausible results, set the flag `configs_det.use_labels_as_objects = True`. The precision and recall results below are the same as expected:
 `precision = 1.0, recall = 1.0`
-<!-- TODO: -->
 <img src='img/precision_recall_uselabels.png'/>
 
 `darknet` gives a result with `precision = 0.9506578947368421, recall = 0.9444444444444444` and the following precision-recall curve
